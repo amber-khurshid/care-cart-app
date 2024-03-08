@@ -1,5 +1,3 @@
 # Care-Cart-App
 
-This project is about an dawaii app on which user can register and busy any type of medi care product
-
-This is written in C++  using Concepts of OOP and file handling
+This  C++ project outlines the essential features of a care-cart app, enabling users to register, log in, and recover passwords. During user registration, individuals input a unique username and password, and the system checks for duplicates in the "user.txt" file. Registration attempts are limited to three, offering users the option to return to the main menu. Successfully registered details are stored for subsequent logins. The user login process involves entering credentials, which are verified against stored data in "user.txt." Upon successful login, a `home()` method is invoked, allowing users to return to the main menu afterward. Password recovery facilitates users in reclaiming access by entering their username, establishing a new password, and updating the information in "user.txt." The code structure hints at a comprehensive application with potential additional features and references to other functions or classes. Nevertheless, there is an opportunity for refinement by incorporating contemporary C++ practices to enhance both readability and maintainability.
